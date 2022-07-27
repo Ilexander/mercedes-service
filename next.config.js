@@ -1,7 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
   swcMinify: true,
-}
+  images: {
+    domains: [
+      "pngimg.com",
+      "azurdrive.ru",
+      "wallpaperaccess.com",
+      "www.mercedes-benz.ua",
+    ],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

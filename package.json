@@ -3,17 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "practic": "concurrently \"npm run dev\" \"npm run magazine\"  \"npm run client\"",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "magazine": "json-server -w magazine-db.json -p 3001",
+    "client": "json-server -w client-db.json -p 3002"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.3",
+    "concurrently": "^7.3.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "json-server": "^0.17.0",
     "next": "12.2.2",
+    "node-sass": "^7.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.33.1",
+    "react-input-mask": "^2.0.4",
+    "react-redux": "^8.0.2",
+    "swiper": "^8.3.1"
   },
   "devDependencies": {
+    "@types/react": "^18.0.15",
     "eslint": "8.20.0",
     "eslint-config-next": "12.2.2"
   }

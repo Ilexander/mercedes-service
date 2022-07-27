@@ -1,0 +1,101 @@
+{
+  "news": [{
+      "id": 1,
+      "page_title": "Сохранение гаранатии производителя",
+      "content": [{
+          "page_text": "Mercedes-Benz Group AG докладає зусиль щодо підтримки клієнтів в Україні та забезпечує гарантію за умов існуючих обмежень здійснення технічного обслуговування.",
+          "right_img": "https://www.mercedes-benz.ua/content/ukraine/uk/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_5_1410911377.component.damq6.3229017370206.jpg/Coolant-Recall-2730x1535.jpg"
+        },
+        {
+          "page_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "left_img": "https://www.mercedes-benz.ua/content/ukraine/uk/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_5_1410911377.component.damq6.3229017370206.jpg/Coolant-Recall-2730x1535.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "page_title": "EQS SUV",
+      "content": [{
+          "page_text": "Новий електричний позашляховик EQS. Mercedes-Benz Group AG докладає зусиль щодо підтримки клієнтів в Україні та забезпечує гарантію за умов існуючих обмежень здійснення технічного обслуговування.",
+          "right_img": "https://www.mercedes-benz.ua/content/ukraine/uk/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_5_1410911377.component.damq6.3229017370206.jpg/Coolant-Recall-2730x1535.jpg"
+        },
+        {
+          "page_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "left_img": "https://www.mercedes-benz.ua/content/ukraine/uk/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_1832512032.component.damq6.3304502013668.jpg/mercedes-eq-eqs-x296-home-simpleteaser-owevolution-764x573-03-2022.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "page_title": "Нова лінійка запасних частин StarParts",
+      "content": [{
+          "page_text": "Оптимальна вартість з вигодою до 38% у порівнянні із стандартною лінійкою. Mercedes-Benz Group AG докладає зусиль щодо підтримки клієнтів в Україні та забезпечує гарантію за умов існуючих обмежень здійснення технічного обслуговування.",
+          "right_img": "https://www.mercedes-benz.ua/content/ukraine/uk/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_2_595851795.component.damq6.3220456769835.jpg/Genuine-Parts-2730x1536-2016-StarParts-Keyvisual.jpg"
+        },
+        {
+          "page_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "left_img": "https://www.mercedes-benz.ua/content/ukraine/uk/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_1832512032.component.damq6.3304502013668.jpg/mercedes-eq-eqs-x296-home-simpleteaser-owevolution-764x573-03-2022.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "page_title": "Новий GLC SUV",
+      "content": [{
+          "page_text": "Привабливий. На будь-якій дорозі. Mercedes-Benz Group AG докладає зусиль щодо підтримки клієнтів в Україні та забезпечує гарантію за умов існуючих обмежень здійснення технічного обслуговування.",
+          "right_img": "https://www.mercedes-benz.ua/content/ukraine/uk/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_7.component.damq6.3308258333241.jpg/mercedes-benz-glc-suv-x254-home-simpleteaser-764x573-05-2022.jpg"
+        },
+        {
+          "page_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "left_img": "https://www.mercedes-benz.ua/content/ukraine/uk/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_1832512032.component.damq6.3304502013668.jpg/mercedes-eq-eqs-x296-home-simpleteaser-owevolution-764x573-03-2022.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "page_title": "Новий C class",
+      "content": [{
+          "page_text": "Привабливий. На будь-якій дорозі. Mercedes-Benz Group AG докладає зусиль щодо підтримки клієнтів в Україні та забезпечує гарантію за умов існуючих обмежень здійснення технічного обслуговування.",
+          "right_img": "https://www.mercedes-benz.ua/content/ukraine/uk/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_7.component.damq6.3308258333241.jpg/mercedes-benz-glc-suv-x254-home-simpleteaser-764x573-05-2022.jpg"
+        },
+        {
+          "page_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "left_img": "https://www.mercedes-benz.ua/content/ukraine/uk/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_1832512032.component.damq6.3304502013668.jpg/mercedes-eq-eqs-x296-home-simpleteaser-owevolution-764x573-03-2022.jpg"
+        }
+      ]
+    }
+  ],
+  "models": [{
+      "model_name": "Mercedes-Benz A Class",
+      "model_text": "Mercedes-Benz A-класс — серия компактных (до 2012 года — субкомпактных) легковых автомобилей немецкой марки Mercedes-Benz. Первое поколение (W168) было представлено в 1997 году, модель второго поколения (W169) появилась в конце 2004 года, а третье поколение (W176) дебютировало в 2012 году.",
+      "model_photo": "https://pngimg.com/uploads/mercedes/mercedes_PNG1894.png",
+      "model_fuelUsage": "9.6-9.2 л/100 км",
+      "model_accelerationTime": "4.2 сек",
+      "model_max_speed": "230 км/ч",
+      "model_fueltank": "52",
+      "model_engine_displacement": "1991 см3",
+      "model_engine_power": "381 лс @ 6000 об./мин."
+    }, {
+      "model_name": "Mercedes-Benz E Class",
+      "model_text": "Mercedes-Benz Е-класс (ориг. E-Klasse, ранее нем. Einspritzung — «топливный впрыск») — серия легковых автомобилей бизнес-класса немецкой торговой марки Mercedes-Benz, официально представленная с 1993 года и в настоящее время состоящая из пяти поколений.",
+      "model_photo": "http://pngimg.com/uploads/mercedes/mercedes_PNG80210.png",
+      "model_fuelUsage": "11.6-11.9 л/100 км",
+      "model_accelerationTime": "4.4 сек",
+      "model_max_speed": "250 км/ч",
+      "model_fueltank": "66",
+      "model_engine_displacement": "2999 см3",
+      "model_engine_power": "520 Нм @ 1800-5800 об./мин."
+    },
+    {
+      "model_name": "Mercedes-Benz C Class",
+      "model_text": "Mercedes-Benz C-класс (ориг. нем. C-Klasse) — серия компактных представительских автомобилей немецкой автомобилестроительной компании Mercedes-Benz, дебютировавшая в 1993 году. Является развитием модели Mercedes-Benz 190.",
+      "model_photo": "https://pngimg.com/uploads/mercedes/mercedes_PNG80135.png",
+      "model_fuelUsage": "4.9-5.6 л/100 км",
+      "model_accelerationTime": "7.8 сек",
+      "model_max_speed": "231 км/ч",
+      "model_fueltank": "40",
+      "model_engine_displacement": "1993 см3",
+      "model_engine_power": "200 лс @ 4200 об./мин."
+    }
+  ]
+}
