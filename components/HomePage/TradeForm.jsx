@@ -51,22 +51,24 @@ const TradeForm = ({ jsonModels, style }) => {
         Trade-in с выгодой <br /> <span>до 10 000 $</span>
       </h3>
       <Select inner={innerMark || "Выбрать марку"} error={errors.mark?.message}>
-        {Array.from(unicModelsName).map((item, index) => (
-          <li
-            className="page__item"
-            key={index}
-            onClick={() => handleSelect(item)}
-          >
-            {item}
-          </li>
-        ))}
+        {Array.from(unicModelsName).length
+          ? Array.from(unicModelsName).map((item, index) => (
+              <li
+                className="page__item"
+                key={index}
+                onClick={() => handleSelect(item)}
+              >
+                {item}
+              </li>
+            ))
+          : ""}
       </Select>
       <Select
         error={errors.model?.message}
         inner={innerModel || "Выбрать модель"}
         disabled={!models.length ? true : false}
       >
-        {models.map((item, index) => (
+        {models.length ? models.map((item, index) => (
           <li
             className="page__item"
             key={index}
@@ -74,7 +76,7 @@ const TradeForm = ({ jsonModels, style }) => {
           >
             {item.model_name}
           </li>
-        ))}
+        )): ''}
       </Select>
       <from className="trade__form" onSubmit={handleSubmit(onSubmit)}>
         <label className="trade__label" htmlFor="">

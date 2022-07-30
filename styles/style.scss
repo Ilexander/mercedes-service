@@ -894,6 +894,7 @@ div[id="__next"] {
 .model__page {
   margin-bottom: 90px;
 
+
   .title {
     font-size: 38px;
   }
@@ -917,6 +918,17 @@ div[id="__next"] {
     }
   }
 
+  &-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    display: grid;
+  }
+
+  &-title {
+    font-size: 28px;
+    margin: 80px 0 0px;
+  }
+
   &-order {
     color: white;
     padding: 10px;
@@ -934,7 +946,6 @@ div[id="__next"] {
     text-align: center;
     font-size: 28px;
     font-weight: 700;
-    margin-top: 80px;
   }
 
   &-item {

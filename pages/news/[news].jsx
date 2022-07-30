@@ -17,7 +17,7 @@ const News = ({ data }) => {
         <div className="container">
           <h2 className="title">{router.query.news}</h2>
           <ul className="news__page-list">
-            {data[0].content.map((item, index) => (
+            {data.content[0].length ? data[0].content.map((item, index) => (
               <li
                 className={"news__page-item" + " " + Object.keys(item)[1]}
                 key={index}
@@ -31,7 +31,7 @@ const News = ({ data }) => {
                   alt={router.query.news}
                 />
               </li>
-            ))}
+            )): ''}
           </ul>
         </div>
         s

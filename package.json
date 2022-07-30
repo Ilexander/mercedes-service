@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "practic": "concurrently \"npm run dev\" \"npm run magazine\"  \"npm run client\"",
+    "practic": "concurrently \"npm run dev\" \"npm run magazine\" \"npm run client\"",
+    "servers": "concurrently \"npm run magazine\" \"npm run client\"",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

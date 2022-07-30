@@ -36,7 +36,7 @@ const Models = ({ state }) => {
                 <Image
                   objectFit="contain"
                   src={item.model_photo}
-                  alt="Test"
+                  alt={item.model_name}
                   width={500}
                   height={300}
                 />

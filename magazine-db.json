@@ -1,8 +1,10 @@
 {
-  "news": [{
+  "news": [
+    {
       "id": 1,
       "page_title": "Сохранение гаранатии производителя",
-      "content": [{
+      "content": [
+        {
           "page_text": "Mercedes-Benz Group AG докладає зусиль щодо підтримки клієнтів в Україні та забезпечує гарантію за умов існуючих обмежень здійснення технічного обслуговування.",
           "right_img": "https://www.mercedes-benz.ua/content/ukraine/uk/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_5_1410911377.component.damq6.3229017370206.jpg/Coolant-Recall-2730x1535.jpg"
         },
@@ -15,7 +17,8 @@
     {
       "id": 2,
       "page_title": "EQS SUV",
-      "content": [{
+      "content": [
+        {
           "page_text": "Новий електричний позашляховик EQS. Mercedes-Benz Group AG докладає зусиль щодо підтримки клієнтів в Україні та забезпечує гарантію за умов існуючих обмежень здійснення технічного обслуговування.",
           "right_img": "https://www.mercedes-benz.ua/content/ukraine/uk/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_5_1410911377.component.damq6.3229017370206.jpg/Coolant-Recall-2730x1535.jpg"
         },
@@ -28,7 +31,8 @@
     {
       "id": 3,
       "page_title": "Нова лінійка запасних частин StarParts",
-      "content": [{
+      "content": [
+        {
           "page_text": "Оптимальна вартість з вигодою до 38% у порівнянні із стандартною лінійкою. Mercedes-Benz Group AG докладає зусиль щодо підтримки клієнтів в Україні та забезпечує гарантію за умов існуючих обмежень здійснення технічного обслуговування.",
           "right_img": "https://www.mercedes-benz.ua/content/ukraine/uk/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_2_595851795.component.damq6.3220456769835.jpg/Genuine-Parts-2730x1536-2016-StarParts-Keyvisual.jpg"
         },
@@ -41,7 +45,8 @@
     {
       "id": 4,
       "page_title": "Новий GLC SUV",
-      "content": [{
+      "content": [
+        {
           "page_text": "Привабливий. На будь-якій дорозі. Mercedes-Benz Group AG докладає зусиль щодо підтримки клієнтів в Україні та забезпечує гарантію за умов існуючих обмежень здійснення технічного обслуговування.",
           "right_img": "https://www.mercedes-benz.ua/content/ukraine/uk/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_7.component.damq6.3308258333241.jpg/mercedes-benz-glc-suv-x254-home-simpleteaser-764x573-05-2022.jpg"
         },
@@ -54,7 +59,8 @@
     {
       "id": 5,
       "page_title": "Новий C class",
-      "content": [{
+      "content": [
+        {
           "page_text": "Привабливий. На будь-якій дорозі. Mercedes-Benz Group AG докладає зусиль щодо підтримки клієнтів в Україні та забезпечує гарантію за умов існуючих обмежень здійснення технічного обслуговування.",
           "right_img": "https://www.mercedes-benz.ua/content/ukraine/uk/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_7.component.damq6.3308258333241.jpg/mercedes-benz-glc-suv-x254-home-simpleteaser-764x573-05-2022.jpg"
         },
@@ -65,7 +71,8 @@
       ]
     }
   ],
-  "models": [{
+  "models": [
+    {
       "model_name": "Mercedes-Benz A Class",
       "model_text": "Mercedes-Benz A-класс — серия компактных (до 2012 года — субкомпактных) легковых автомобилей немецкой марки Mercedes-Benz. Первое поколение (W168) было представлено в 1997 году, модель второго поколения (W169) появилась в конце 2004 года, а третье поколение (W176) дебютировало в 2012 году.",
       "model_photo": "https://pngimg.com/uploads/mercedes/mercedes_PNG1894.png",
@@ -75,7 +82,8 @@
       "model_fueltank": "52",
       "model_engine_displacement": "1991 см3",
       "model_engine_power": "381 лс @ 6000 об./мин."
-    }, {
+    },
+    {
       "model_name": "Mercedes-Benz E Class",
       "model_text": "Mercedes-Benz Е-класс (ориг. E-Klasse, ранее нем. Einspritzung — «топливный впрыск») — серия легковых автомобилей бизнес-класса немецкой торговой марки Mercedes-Benz, официально представленная с 1993 года и в настоящее время состоящая из пяти поколений.",
       "model_photo": "http://pngimg.com/uploads/mercedes/mercedes_PNG80210.png",

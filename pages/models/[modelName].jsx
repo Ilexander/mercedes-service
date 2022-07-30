@@ -16,72 +16,80 @@ const Model = ({ state, list }) => {
         <title>{router.query.modelName}</title>
       </Head>
       <div className="container">
-        <div className="model__page-inner">
-          <Image
-            src={state[0].model_photo}
-            alt={state[0].model_name}
-            objectFit="contain"
-            width={620}
-            height={430}
-            placeholder="blur"
-            blurDataURL={state[0].model_photo}
-          />
-          <div className="model__page-content">
-            <h2 className="title">{router.query.modelName}</h2>
-            <p className="model__page-text">
-              <b>Расход топлива:</b> {state[0].model_fuelUsage}
-            </p>
-            <p className="model__page-text">
-              <b>Разгон 0-100 км/час:</b> {state[0].model_accelerationTime}
-            </p>
-            <p className="model__page-text">
-              <b>Объем бака:</b> {state[0].model_fueltank} л
-            </p>
-            <p className="model__page-text">
-              <b>Объем двигателя:</b> {state[0].model_engine_displacement}
-            </p>
-            <p className="model__page-text">
-              <b>Мощность двигателы:</b> {state[0].model_engine_power}
-            </p>
-            <p className="model__page-text">
-              <b>Максимальная скорость:</b> {state[0].model_max_speed}
-            </p>
-            <div className="model__page-text">
-              <b>Про автомобиль:</b>{" "}
-              <p style={{ display: "block" }}>{state[0].model_text}</p>
+        {list.length ? (
+          <div className="model__page-inner">
+            <Image
+              src={state[0].model_photo}
+              alt={state[0].model_name}
+              objectFit="contain"
+              width={620}
+              height={430}
+              placeholder="blur"
+              blurDataURL={state[0].model_photo}
+            />
+            <div className="model__page-content">
+              <h2 className="title">{router.query.modelName}</h2>
+              <p className="model__page-text">
+                <b>Расход топлива:</b> {state[0].model_fuelUsage}
+              </p>
+              <p className="model__page-text">
+                <b>Разгон 0-100 км/час:</b> {state[0].model_accelerationTime}
+              </p>
+              <p className="model__page-text">
+                <b>Объем бака:</b> {state[0].model_fueltank} л
+              </p>
+              <p className="model__page-text">
+                <b>Объем двигателя:</b> {state[0].model_engine_displacement}
+              </p>
+              <p className="model__page-text">
+                <b>Мощность двигателы:</b> {state[0].model_engine_power}
+              </p>
+              <p className="model__page-text">
+                <b>Максимальная скорость:</b> {state[0].model_max_speed}
+              </p>
+              <div className="model__page-text">
+                <b>Про автомобиль:</b>{" "}
+                <p style={{ display: "block" }}>{state[0].model_text}</p>
+              </div>
             </div>
           </div>
-        </div>
+        ) : (
+          ""
+        )}
         <button className="model__page-order">Оформить заказ</button>
+        <h3 className="model__page-title">Вам могут понравится:</h3>
         <ul className="model__page-list">
-          Вам могут понравится:
-          {list.map((item, index) => (
-            <li
-              className="model__page-item"
-              key={index}
-              style={{
-                display:
-                  item.model_name === router.query.modelName ? "none" : "block",
-              }}
-            >
-              <Link
-                href="/models/[modelName]"
-                as={"/models/" + item.model_name}
-              >
-                <a href="">
-                  <Image
-                    style={{ margin: "0 auto" }}
-                    objectFit="contain"
-                    src={item.model_photo}
-                    alt={item.model_name}
-                    height={200}
-                    width={200}
-                  />
-                  <h3>{item.model_name}</h3>
-                </a>
-              </Link>
-            </li>
-          ))}
+          {list.length
+            ? list.map((item, index) => (
+                <li
+                  className="model__page-item"
+                  key={index}
+                  style={{
+                    display:
+                      item.model_name === router.query.modelName
+                        ? "none"
+                        : "block",
+                  }}
+                >
+                  <Link
+                    href="/models/[modelName]"
+                    as={"/models/" + item.model_name}
+                  >
+                    <a href="">
+                      <Image
+                        style={{ margin: "0 auto" }}
+                        objectFit="contain"
+                        src={item.model_photo}
+                        alt={item.model_name}
+                        height={200}
+                        width={200}
+                      />
+                      <h3>{item.model_name}</h3>
+                    </a>
+                  </Link>
+                </li>
+              ))
+            : ""}
         </ul>
       </div>
     </div>
@@ -97,7 +105,7 @@ Model.getInitialProps = async (ctx) => {
   );
   const listJson = await responsiveList.json();
   const json = await res.json();
-  return { state: json, list: listJson };
+  return { state: json || null, list: listJson || null };
 };
 
 export default Model;
